@@ -15,6 +15,6 @@ class HelloTest {
     @Test
     void print_shouldFail() {
         var hello = new Hello();
-        Assertions.assertEquals("Hello, world!", hello.print());
+        Assertions.assertEquals("Hi!", hello.print());
     }
 }
